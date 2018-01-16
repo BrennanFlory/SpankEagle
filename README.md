@@ -1,2 +1,2 @@
 # SpankEagle
-SpankEagle Website
+Website
