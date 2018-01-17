@@ -45,7 +45,7 @@ function handleViewportResize() {
 
 // Set background to a random one
 var backgroundElement = document.getElementById('js-bg');
-var selected = Math.floor(Math.random() * 12);
+var selected = Math.floor(Math.random() * 10);
 backgroundElement.onload = function() {
         var d = getViewportDimensions();
         if ((d.w / d.h) < (backgroundElement.width / backgroundElement.height)) {
