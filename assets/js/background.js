@@ -40,7 +40,7 @@ backgroundElement.onload = function() {
         backgroundElement.style.opacity = 1;
     }
     // Will open this later
-backgroundElement.src = '_assets/images/backgrounds/background' + selected + '.png';
+backgroundElement.src = '../assets/images/backgrounds/background' + selected + '.png';
 
 // Attach listener to update background width and height based on viewport size
 // changes
